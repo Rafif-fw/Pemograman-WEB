@@ -1,0 +1,63 @@
+<html>
+<head>
+    <meta name="description" content="Ini adalah menu input biodata">
+    <title>web1</title>
+</head>
+<body>
+    <form name="formSatu">
+        <fieldset>
+            <legend><b><font color="blue">Data Input</font></b></legend>
+            <table border="1" cellspacing="2" bgcolor="blue">
+                <tr>
+                    <td bgcolor="white">NIM:</td>
+                    <td><input type="text" name="id"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Nama:</td>
+                    <td><input type="text" name="nama"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Alamat:</td>
+                    <td><input type="text" name="alamat"></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Jenis Kelamin:</td>
+                    <td>
+                        <select name="sex">
+                            <option value="perempuan">perempuan</option>
+                            <option value="laki-laki">laki-laki</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Agama:</td>
+                    <td bgcolor="Green">
+                        <input type="checkbox" name="ag01" value="islam"> <b style="color: white;">Islam</b> </input><br/>
+						<input type="checkbox" name="ag01" value="Protestan"> <b style="color: white;">Protestan</b> </input><br/>
+                        <input type="checkbox" name="ag01" value="Katolik"> <b style="color: white;">Katolik</b> </input><br/>
+                        <input type="checkbox" name="ag01" value="Budha"> <b style="color: white;">Budha</b> </input><br/>
+						<input type="checkbox" name="ag01" value="Hindu"> <b style="color: white;">Hindu</b> </input><br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Status:</td>
+                    <td bgcolor="Black">
+                        <input type="radio" name="st" value="Single"> <b style="color: white;">Single</b> </input><br/>
+                        <input type="radio" name="st" value="Married"> <b style="color: white;">Married</b> </input><br/>
+                        <input type="radio" name="st" value="Relationship"> <b style="color: white;">In a Relationship</b> </input><br/>
+                        <input type="radio" name="st" value="Complicated"> <b style="color: white;">Complicated</b> </input><br/>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td><input type="button" value="Save"></td>
+                <td><input type="button" value="Edit"></td>
+                <td><input type="button" value="Delete" name="hapus"></td>
+                <td><input type="reset" value="Reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

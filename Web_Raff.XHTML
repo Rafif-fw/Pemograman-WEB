@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Ini adalah menu input biodata" />
+    <title>web1</title>
+</head>
+<body>
+    <form name="formSatu" id="formSatu" action="#" method="post">
+        <fieldset>
+            <legend><b><font color="Blue">Data Input</font></b></legend>
+            <table border="1" cellspacing="2" bgcolor="Pink">
+                <tr>
+                    <td bgcolor="white">NIM:</td>
+                    <td><input type="text" name="id" id="id" /></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Nama:</td>
+                    <td><input type="text" name="nama" id="nama" /></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Alamat:</td>
+                    <td><input type="text" name="alamat" id="alamat" /></td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Jenis Kelamin:</td>
+                    <td>
+                        <select name="sex" id="sex">
+                            <option value="perempuan">perempuan</option>
+                            <option value="laki-laki">laki-laki</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Agama:</td>
+                    <td bgcolor="Pink">
+                        <input type="checkbox" name="ag01" id="ag01" value="Islam" /><font color="white;">Islam</font><br />
+                        <input type="checkbox" name="ag01" id="ag02" value="Protestan" /><font color="white;">Protestan</font><br />
+                        <input type="checkbox" name="ag01" id="ag03" value="Katolik" /><font color="white;">Katolik</font><br />
+                        <input type="checkbox" name="ag01" id="ag04" value="Budha" /><font color="white;">Budha</font><br />
+                        <input type="checkbox" name="ag01" id="ag05" value="Hindu" /><font color="white;">Hindu</font><br />
+                    </td>
+                </tr>
+                <tr>
+                    <td bgcolor="white">Status:</td>
+                    <td bgcolor="Pink">
+                        <input type="radio" name="st" id="st1" value="Single" /><b>Single</b>
+                        <input type="radio" name="st" id="st2" value="Maried" /><b>Married</b>
+                        <input type="radio" name="st" id="st3" value="Relationship" /><b>Rel</b> 
+                        <input type="radio" name="st" id="st4" value="Complicated" /><b>Comp</b>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <table>
+            <tr>
+                <td><input type="button" value="Save" /></td>
+                <td><input type="button" value="Edit" /></td>
+                <td><input type="button" value="Delete" name="hapus" /></td>
+                <td><input type="reset" value="Reset" /></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
